@@ -1,0 +1,7 @@
+<div class="sample-image-lol"><img src="https://thumb7.shutterstock.com/display_pic_with_logo/2502094/402146209/stock-photo-sample-rubber-stamp-text-on-white-background-402146209.jpg" class="Sample" alt="Picture"></img></div>
+
+.sample-image-lol {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
