@@ -130,7 +130,7 @@ body {
 @media (min-width: 560px) {
   .profile-image {
     width: 430px;
-    height: 500px;
+    height: 430px;
   }
 }
 
@@ -227,3 +227,9 @@ body {
     background-color: rgb(233, 230, 227);
   }
   
+input{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 80px;
+}
