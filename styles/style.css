@@ -212,24 +212,27 @@ body {
     text-align: center;
    }
 
-
-   .leftColumn{
-    width: 50%;
-    height: 1600px;
-    float: left;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .rightColumn{
-    width: 50%;
-    height: 1600px;
-    float: right;
-    background-color: rgb(233, 230, 227);
-  }
-  
 input{
   display: block;
   margin: auto;
   text-align: center;
   width: 80px;
+}
+
+#columns{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#columns #left{
+   width: 300px;
+   float: left;
+
+}
+
+#columns #right{
+  width: 300px;
+  float: right;
+  
 }
