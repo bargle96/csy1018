@@ -176,8 +176,9 @@ body {
   }
 
   h2{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    font-size: 28px;
   }
 
   h3{
