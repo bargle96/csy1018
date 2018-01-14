@@ -222,7 +222,7 @@ input{
 /* Layout: */
 
 .col-main {
-  flex: 1.5;  
+  flex: 3;  
 }  
 
 .col-complementary {
