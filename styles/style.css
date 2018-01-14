@@ -148,6 +148,20 @@ body {
   }
 }
 
+.topicimage1 {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: auto;
+}
+
+@media (min-width: 560px) {
+  .topicimage1 {
+    width: 800px;
+    height: 500px;
+  }
+}
+
  .container {
     height: auto;
     min-height: 30%;
@@ -233,7 +247,7 @@ input{
 
 /* Responsive: */
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 500px) {
   .layout {
     display: flex;
   }
@@ -252,4 +266,5 @@ input{
   margin: 0 2px 2px 0;
   background: #c4c4c4;
 }
+
 
