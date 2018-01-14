@@ -222,11 +222,11 @@ input{
 /* Layout: */
 
 .col-main {
-  flex: 3;  
+  flex: 1;  
 }  
 
 .col-complementary {
-  flex: 1;  
+  flex: 3;  
 }
 
 /* Responsive: */
@@ -238,10 +238,6 @@ input{
 }
 
 /* etc */
-
-body {
-  margin: 1.5em;
-}
 
 .container {
   max-width: 60em;
@@ -255,8 +251,3 @@ body {
   background: #b3e888;
 }
 
-.top-logo {
-  display: block;
-  margin: auto;
-  width: 200ox;
-  }
