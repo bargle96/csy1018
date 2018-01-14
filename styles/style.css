@@ -269,74 +269,48 @@ input{
 
 /*form*/
 
-
-.flex-outer,
-.flex-inner {
-  list-style-type: none;
-  padding: 0;
+form {
+  border: solid #0B014B 7px;
+  border-radius: 10px;
+  padding: 1em;
+  width: 70%;
+  min-width: 200px;
+  max-width: 80%;
+  margin: auto;
+  display: block;
 }
 
-.flex-outer {
-  max-width: 800px;
-  margin: 0 auto;
+.form-title {
+  margin-top: 0;
+  text-align: center;
 }
 
-.flex-outer li,
-.flex-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.form-group {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-.flex-inner {
-  padding: 0 8px;
-  justify-content: space-between;  
+#form-input {
+  width: 50%;
 }
 
-.flex-outer > li:not(:last-child) {
-  margin-bottom: 20px;
+textarea {
+  width: 80%;
+  resize: none;
+  display: block;
+  margin: auto;
 }
 
-.flex-outer li label,
-.flex-outer li p {
-  padding: 8px;
-  font-weight: 300;
-  letter-spacing: .09em;
-  text-transform: uppercase;
+.submit-button {
+  background-color: #0B014B;
+  padding: 2em;
+  margin: auto;
+  display: block;
+  color: #fff;
+  border-radius: 10px;
 }
 
-.flex-outer > li > label,
-.flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 220px;
-}
-
-.flex-outer > li > label + *,
-.flex-inner {
-  flex: 1 0 220px;
-}
-
-.flex-outer li p {
-  margin: 0;
-}
-
-.flex-outer li input:not([type='checkbox']),
-.flex-outer li textarea {
-  padding: 15px;
-  border: none;
-}
-
-.flex-outer li button {
-  margin-left: auto;
-  padding: 8px 16px;
-  border: none;
-  background: #333;
-  color: #f2f2f2;
-  text-transform: uppercase;
-  letter-spacing: .09em;
-  border-radius: 2px;
-}
-
-.flex-inner li {
-  width: 100px;
+.submit-button:hover {
+  background-color: #2D95D1;
+  color: #000;
 }
