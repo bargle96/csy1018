@@ -1,3 +1,4 @@
+/* This is the CSS for the main layout */
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body {
  html{
   font-family: sans-serif;
 }
-     
+/* This is the CSS for the navigation bar */     
  a {
     text-decoration: none;
     color: inherit;
@@ -44,6 +45,7 @@ body {
     background-color: rgb(100, 49, 158);
  }
      
+/* This is the CSS for the main section of the layout for my whole website */   
  section {
     line-height: 1.5em;
     font-size: 0.9em;
@@ -67,6 +69,7 @@ body {
   display: inline-block;
 }
 
+/* This is the CSS for the icon for the mobile version navigation bar */   
 .menu_icon div {
   background-color: white;
   border-radius: 2px;
@@ -78,7 +81,8 @@ body {
     float: right;
     margin: .5em 0;
 }
-     
+    
+/* This is the CSS for the icon for the mobile version navigation bar */   
  @media screen and (max-width: 580px){
          
    nav ul {
@@ -104,7 +108,7 @@ body {
   }
 }
 
-
+/* This is the CSS for the footer of my website */   
  .footer-bar {
    background-color: rgb(11, 1, 75);
    padding-top: 30px;
@@ -119,21 +123,22 @@ body {
    padding-bottom: 15px;
    font-size: 24px;
  }
- 
+
+ /* This is the CSS for the profile images inserted on home page */  
  .profile-image {
   display: block;
   width: 200px;
   height: 200px;
   margin: auto;
 }
-
+/* This is the CSS for the profile images inserted on home page in mobile version*/
 @media (min-width: 560px) {
   .profile-image {
     width: 430px;
     height: 430px;
   }
 }
- 
+ /* This is the CSS for the topic images inserted on other pages on website*/
 .topicimage {
   display: block;
   width: 300px;
@@ -141,20 +146,21 @@ body {
   margin: auto;
 }
 
+/* This is the CSS for the topic images inserted on other pages on website in mobile version*/
 @media (min-width: 560px) {
   .topicimage {
     width: 630px;
     height: 430px;
   }
 }
-
+ /* This is the CSS for the topic images inserted on other pages on website*/
 .topicimage1 {
   display: block;
   width: 300px;
   height: 300px;
   margin: auto;
 }
-
+/* This is the CSS for the topic images inserted on other pages on website in mobile version*/
 @media (min-width: 560px) {
   .topicimage1 {
     width: 800px;
@@ -168,7 +174,7 @@ body {
     width: -20%;
     margin: 0 auto;
   }
-
+/* This is the CSS for first video located on home page of my website*/
   .front-video iframe {
     display: block;
     margin: auto;
@@ -179,7 +185,7 @@ body {
     padding-bottom: 20px;
   
   }
-  
+  /* This is the CSS for first video located on home page of my website for mobile version*/
   @media (min-width: 560px) {
     .front-video iframe {
       max-width: 80%;
@@ -188,30 +194,30 @@ body {
       max-height: 1000px;
     }
   }
-
+/* This is the CSS for header used for my name of the website and main section on one of my web page on my website*/
   h1{
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-size: 28px;
   }
-
+/* This is the CSS for header used for  main section on one of my web page on my website*/
 h2{
   font-size: 20px;
   color: white;
   
 }
-
+/* This is the CSS for header used for  main section on one of my web page on my website*/
   h3{
     margin: auto;  
     text-align: left;
   }
-
+/* This is the CSS for images used for on one of my web page on my website*/
  .image-1{
     display: block;
     margin: auto;
     text-align: center;
   }
-
+/* This is the CSS for images used for on one of my web page on my website*/
   .image-2{
     height: 290px; 
     width: 300px;
@@ -259,7 +265,7 @@ input{
   }
 }
 
-/* etc */
+/* This is th part for the column that I have used for glossary page */
 
 .container {
   max-width: 60em;
@@ -273,7 +279,7 @@ input{
   background: #c4c4c4;
 }
 
-/*form*/
+/*This is a form used on my home page*/
 
 form {
   border: solid #0B014B 7px;
