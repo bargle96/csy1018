@@ -133,25 +133,25 @@ body {
     height: 430px;
   }
 }
-
+ 
 .topicimage {
   display: block;
-  width: 250px;
-  height: 200px;
+  width: 430px;
+  height: 300px;
   margin: auto;
 }
 
 @media (min-width: 560px) {
   .topicimage {
-    width: 600px;
-    height: 400px;
+    width: 630px;
+    height: 430px;
   }
 }
 
 .topicimage1 {
   display: block;
-  width: 250px;
-  height: 200px;
+  width: 420px;
+  height: 300px;
   margin: auto;
 }
 
